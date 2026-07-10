@@ -51,10 +51,9 @@ A list of standby names that must remain synchronous with the primary. The "name
 
 ### Step 1 — Set Up Base Replication
 
-Before configuring synchronous mode, set up either:
+Before configuring synchronous mode, set up:
 
-- Streaming (physical) replication between a primary and a standby, or
-- Logical replication between a publisher and a subscriber
+- Streaming (physical) replication between a primary and a standby.
 
 ### Step 2 — Set `application_name` on the Standby (Streaming Replication Only)
 
@@ -125,7 +124,3 @@ sync_state       | sync
 ## Asynchronous Replication
 
 If `synchronous_standby_names` is left empty or unset on the primary/publisher node, replication automatically operates in **asynchronous** mode — the default behavior described in the introduction.
-
----
-
-*This solution is part of Percona's customer knowledge base — a library of solutions Percona engineers have developed while supporting customers. To deliver this knowledge as quickly as possible, some articles may appear in a raw, lightly edited form.*
