@@ -46,7 +46,7 @@ This article uses a sample 3-node cluster:
 | Node 2 | `pg1` | `192.168.50.95` |
 | Node 3 | `pg2` | `192.168.50.100` |
 
-> ⚠️ **Important:** This article is written for **etcd 3.3 and older**. If you're installing a newer version (e.g., 3.5), refer to article **KB0049666** instead.
+> ⚠️ **Important:** This article is written for **etcd 3.3 and older**. If you're installing a newer version (e.g., 3.5), refer to another article in this repository.
 
 ---
 
